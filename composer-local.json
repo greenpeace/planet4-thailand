@@ -3,7 +3,7 @@
 	"description": "Greenpeace P4 Thailand",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-child-theme-thailand" : "dev-develop",
+		"greenpeace/planet4-child-theme-thailand" : "*",
 		"greenpeace/planet4-plugin-migrated-urls": "0.0.1",
 		"wpackagist-plugin/wp-stateless": "2.1.7"
 	},
