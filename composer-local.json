@@ -1,15 +1,15 @@
 {
-    "name": "greenpeace/planet4-thailand",
-    "description": "Greenpeace P4 Thailand",
-    "license": "MIT",
-    "require": {
-        "greenpeace/planet4-child-theme-thailand" : "*"
-    },
-    "scripts": {
-        "core:language": "wp language core install th; wp language core activate th",
-        "site:custom": [
-            "@core:language"
-        ]
+  "name": "greenpeace/planet4-thailand",
+  "description": "Greenpeace P4 Thailand",
+  "license": "MIT",
+  "require": {
+    "greenpeace/planet4-child-theme-thailand" : "dev-main"
+  },
+  "scripts": {
+    "core:language": "wp language core install th; wp language core activate th",
+    "site:custom": [
+      "@core:language"
+    ]
 
-    }
+  }
 }
